@@ -18,7 +18,6 @@ struct node{
         prev = regular;
         regular = temp;
     }
-
     if(fast != NULL){
         regular = regular->link;
     }
